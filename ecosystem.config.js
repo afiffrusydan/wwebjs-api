@@ -3,7 +3,8 @@ module.exports = {
     name   : "wwebjs-api",
     script : "server.js",
     // watch  : true,
-    max_memory_restart: '1.5G',
+    max_memory_restart: '1536M',
+    cron_restart: '2 1 * * *',
     ignore_watch: [
       'node_modules',
       'sessions',

@@ -6,6 +6,12 @@ module.exports = {
   },
   extends: 'standard',
   overrides: [
+    {
+      files: ['ecosystem.config.js'],
+      rules: {
+        'eslint-disable': true
+      }
+    }
   ],
   parserOptions: {
     ecmaVersion: 'latest',
